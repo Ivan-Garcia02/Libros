@@ -1,0 +1,26 @@
+{
+  "name": "plamesa-cargadatos",
+  "version": "1.0.0",
+  "description": "Repositorio para almacenar script de carga de datos y ficheros con los datos de entrada a la BD",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "csv-parser": "^3.0.0",
+    "iconv-lite": "^0.6.3",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "env-cmd": "^10.1.0",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.3"
+  }
+}

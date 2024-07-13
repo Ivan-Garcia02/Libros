@@ -1,8 +1,38 @@
 import { Document, Schema, model } from "mongoose";
 
 export enum Gender {
-  Cocina = 'Cocina', Recetas = 'Recetas'
+  ManualYGuias = 'Manual y guías',
+  AccionYAventuras = 'Acción y aventuras',
+  Aprendizaje = 'Aprendizaje',
+  Arte = 'Arte',
+  Atlas = 'Atlas',
+  Autoayuda = 'Autoayuda',
+  Bibliografico = 'Bibliográfico',
+  Bricolaje = 'Bricolaje',
+  Canciones = 'Canciones',
+  CienciaFiccion = 'Ciencia ficción',
+  ClasicoEspanol = 'Clásico Español',
+  Cocina = 'Cocina',
+  Comic = 'Comic',
+  Religioso = 'Religioso',
+  Cuento = 'Cuento',
+  CursoIdioma = 'Curso idioma',
+  Diccionario = 'Diccionario',
+  Educativo = 'Educativo',
+  Deportes = 'Deportes',
+  Filosofia = 'Filosofía',
+  Botanica = 'Botánica',
+  Guerra = 'Guerra',
+  Historia = 'Historia',
+  Infantil = 'Infantil',
+  Novela = 'Novela',
+  Paisaje = 'Paisaje',
+  Revista = 'Revista',
+  Sexualidad = 'Sexualidad',
+  Thriller = 'Thriller',
+  Otro = 'Otro'
 }
+
 
 /** Definición de la interfaz de documento de libro */
 export interface BookDocumentInterface extends Document {
